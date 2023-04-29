@@ -255,6 +255,8 @@ if [ -f ~/.zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
 fi
 
+export LC_ALL=en_US.UTF-8
+
 # enable command-not-found if installed
 if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
